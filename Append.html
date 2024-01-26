@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <p>this is a paragraph</p>
+    <p class="muskan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia accusantium labore magnam obcaecati laborum tempora quis tempore fugiat doloremque vero nihil harum cumque facere, provident aperiam quae iure dolor.
+    Ipsum, fugiat quisquam quis velit accusantium modi sed, reiciendis non iure provident sit magnam vel libero enim voluptatum qui necessitatibus! Sit, asperiores repellendus beatae accusamus alias impedit nisi quas iure?
+    Quidem accusantium, assumenda placeat nemo mollitia perspiciatis maiores fuga neque, at eum architecto soluta, nisi dolore cumque reprehenderit distinctio reiciendis consequuntur cum hic ex repudiandae a suscipit! Officia, corrupti ea!
+    Totam molestiae eaque dolorum culpa tempore! Ipsam quibusdam itaque similique voluptate voluptatem vitae in, distinctio quidem suscipit pariatur veritatis dolorum dolorem, ipsa inventore fugit eligendi aliquid consequatur sunt, quod atque.
+    Voluptas quae repellat dicta soluta, quod explicabo natus a est iure dolore eius numquam quasi, impedit asperiores dignissimos totam dolorum optio, reiciendis ipsum delectus modi libero eligendi. Amet, modi aut?
+    Laboriosam eos architecto eveniet minus repudiandae quod repellat minima tenetur eligendi! Adipisci, nulla maiores neque doloremque laborum mollitia consequuntur temporibus fugiat consectetur blanditiis nam quo ipsa distinctio, veniam deserunt voluptatibus!
+    Voluptatum est aspernatur consequuntur maxime omnis iure. Beatae, vero aut quam quisquam doloribus incidunt quidem exercitationem veritatis libero suscipit porro quibusdam, quo esse optio ipsum natus et ad accusantium. Vitae!
+    Dolorum, modi dicta? Exercitationem possimus perferendis et aliquam, id vitae nam doloribus, laudantium nihil eius atque culpa soluta, dolore cumque laboriosam nisi alias? Rem beatae sequi libero dolorum laudantium modi.
+    Quis saepe commodi, blanditiis numquam perspiciatis odio inventore eligendi nihil debitis expedita aliquam dolores pariatur aperiam minima molestias accusamus excepturi voluptatibus? Mollitia aut debitis quasi eaque ab, possimus consequuntur at.
+    Ut dolor omnis provident ad distinctio earum doloremque, incidunt totam iusto dolores illum repellat odit praesentium reprehenderit? Dolor eaque, libero, odio consequatur quos laborum nemo laboriosam officia itaque voluptas id?</p>
+<ol>
+<li>milk</li>
+<li>coffee</li>
+<li>tea</li>
+<li>sugger</li>
+<li>adarak</li>
+</ol>
+<button id="a1">Append Text</button>
+<button id="a5">Append list</button>
+<button id="a2">Prepend</button>
+<button class="a6">prepend list</button>
+<button id="a3">After</button>
+<button  id="a4">Before</button>
+
+<script>
+
+(function(){
+    // alert('page is loaded');
+     // $(selector).action();
+     $("#a1").click(function(){
+              $(".muskan").append("<b> guarav namdev is a student of mca </b>");
+     })
+     $("#a5").click(function(){
+              $("ol").append("<li><b> oil </b></li>");
+     })
+                               // prepend()
+     $("#a2").click(function(){
+              $(".muskan").prepend("<b> guarav namdev is a student of mca </b>");
+     })
+     $(".a6").click(function(){
+              $("ol").prepend("<li><b> oil </b></li>");
+     })
+
+
+})(jQuery);
+</script>
+
+
+
+</body>
+</html>

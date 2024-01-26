@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .muskan{
+            color: red;
+            border: 1px solid black;
+        }
+        .golu{
+            color: red;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <h1>this is a heading</h1>
+    <h2>this is a heading</h2>
+    <p>this is a paragraph</p>
+    <div>this is a some important tag</div>
+    <br>
+    <button>Add Class</button>
+
+    <script>
+         jQuery(function(){
+            //alert('musakn kali  hai');
+
+            $('button').click(function(){
+                $('h1,h2,p').addClass("muskan");
+                $('div').addClass("golu");
+            })
+         })
+    </script>
+</body>
+</html>

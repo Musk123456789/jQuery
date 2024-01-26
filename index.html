@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <p id="a1">this is a paragraph to the <b>w3 school</b></p>
+    <form action="">
+        Name : <input type="text" id="muskan" value="gaurav namdev">
+    </form>
+    <br>
+    <br>
+    <button id="a2">show text</button>
+    <button id="a3">show html</button>
+    <button id="a4">show value</button>
+    <script>
+
+     // ()();
+     (function(){ // text() :-
+        //alert("page is loaded");
+        // $(selector).action();
+        $("#a2").click(function(){
+            //$(selector).action();
+           alert ($("#a1").text());
+           
+        }) // html() -
+        $("#a3").click(function(){
+            alert($("#a1").html());
+        })
+
+                // Value() -
+
+                $("#a4").click(function(){
+            alert($("#muskan").val());
+        })
+
+     })(jQuery);
+
+
+    </script>
+</body>
+</html>

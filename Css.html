@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <p style="background-color: red;">This is a paragraph</p>
+    <p style="background-color: green;" id="a1">This is a another paragraph</p>
+    <p style="background-color: yellow;">This is golu baalu</p>
+    <button>return background color of p</button>
+    <script>
+       (function(){
+        $('button').click(function(){
+            alert($('#a1').css("background-color"));
+        })
+       })(jQuery);
+    </script>
+</body>
+</html>
